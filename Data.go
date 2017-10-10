@@ -19,24 +19,24 @@ type contract struct {
 	IsBillOfLedingAttached                      bool            `json:"isBillOfLedingAttached"`
 	ActionPendingOn                             string          `json:"actionPendingOn"`
 	ContractStatus                              string          `json:"contractStatus"`
-	LastUpdatedDate                             string          `json:"LastUpdatedDate"`
-	ApprovedContractByBuyerDate                 string          `json:"ApprovedContractByBuyerDate"`
-	LCCreatedByBuyerBankDate                    string          `json:"LCCreatedByBuyerBankDate"`
-	LCApprovedBySellerBankDate                  string          `json:"LCApprovedBySellerBankDate"`
-	ReadyForShipmentBySellerDate                string          `json:"ReadyForShipmentBySellerDate"`
-	ShipmentInProgressByTransDate               string          `json:"ShipmentInProgressByTransDate"`
-	ShipmentDeliveredByBuyerDate                string          `json:"ShipmentDeliveredByBuyerDate"`
-	InvoiceCreatedBySellerDate                  string          `json:"InvoiceCreatedBySellerDate"`
-	PaymentCompletedToSellerBySellerBankDate    string          `json:"PaymentCompletedToSellerBySellerBankDate"`
-	PaymentCompletedToSellerBankByBuyerBankDate string          `json:"PaymentCompletedToSellerBankByBuyerBankDate"`
-	ContractCompletedByBuyerDate                string          `json:"ContractCompletedByBuyerDate"`
+	LastUpdatedDate                             string          `json:"lastUpdatedDate"`
+	ApprovedContractByBuyerDate                 string          `json:"approvedContractByBuyerDate"`
+	LCCreatedByBuyerBankDate                    string          `json:"lcCreatedByBuyerBankDate"`
+	LCApprovedBySellerBankDate                  string          `json:"lcApprovedBySellerBankDate"`
+	ReadyForShipmentBySellerDate                string          `json:"readyForShipmentBySellerDate"`
+	ShipmentInProgressByTransDate               string          `json:"shipmentInProgressByTransDate"`
+	ShipmentDeliveredByBuyerDate                string          `json:"shipmentDeliveredByBuyerDate"`
+	InvoiceCreatedBySellerDate                  string          `json:"invoiceCreatedBySellerDate"`
+	PaymentCompletedToSellerBySellerBankDate    string          `json:"paymentCompletedToSellerBySellerBankDate"`
+	PaymentCompletedToSellerBankByBuyerBankDate string          `json:"paymentCompletedToSellerBankByBuyerBankDate"`
+	ContractCompletedByBuyerDate                string          `json:"contractCompletedByBuyerDate"`
 }
 
 type tradeConditions struct {
-	PaymentDuration   string `"json:"paymentDuration"`
-	TransportDuration string `"json:"transportDuration"`
-	Currency          string `"json:"currency"`
-	PaymentTerms      string `"json:"paymentTerms"`
+	PaymentDuration   string `json:"paymentDuration"`
+	TransportDuration string `json:"transportDuration"`
+	Currency          string `json:"currency"`
+	PaymentTerms      string `json:"paymentTerms"`
 }
 
 type product struct {
